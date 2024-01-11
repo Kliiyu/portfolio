@@ -37,24 +37,29 @@
         </div>
     </header>
 
-    <footer class="footer">
+    <div class="bcard-wrapper">
+        <a id="bcard-front" onclick="flipCard()" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><img class="bcard" src="./images/contactCard/Businesscard2.png" alt="Businesscard Back"></a>
+        <a id="bcard-back" onclick="flipCard()" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><img class="bcard" src="./images/contactCard/Businesscard1.png" alt="Businesscard Back"></a>
+    </div>
+
+    <footer class="footer" style="position: absolute; bottom: 0;">
         <ul class="social-icon">
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.youtube.com/@adrianh.evjeberg7197">
               <ion-icon name="logo-youtube"></ion-icon>
             </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/Kliiyu">
               <ion-icon name="logo-github"></ion-icon>
             </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/adrian-hiim-evjeberg-87bb412a9/">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a></li>
-          <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/adrian.evj/">
               <ion-icon name="logo-instagram"></ion-icon>
             </a></li>
         </ul>
         <ul class="menu">
             <li class="menu__item"><a class="menu__link" href="#" onclick="pageRedirect('index.html')">Hjem</a></li>
-            <li class="menu__item"><a class="menu__link" href="#" onclick="pageRedirect('index.html')">Om Meg</a></li>
+            <li class="menu__item"><a class="menu__link" href="./index.html#section-1">Om Meg</a></li>
             <li class="menu__item"><a class="menu__link" href="#" onclick="pageRedirect('projects.html')">Prosjekter</a></li>
             <li class="menu__item"><a class="menu__link" href="#" onclick="pageRedirect('contact.html')">Kontakt</a></li>
         </ul>
