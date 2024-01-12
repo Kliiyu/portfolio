@@ -440,6 +440,7 @@ header ul li h3 {
     border: 1px solid gray;
     padding: 10px;
     margin: 2rem;
+    z-index: 10000;
 }
 
 .downloadAbout:hover {
